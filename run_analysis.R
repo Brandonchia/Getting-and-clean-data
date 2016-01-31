@@ -52,7 +52,7 @@ setnames(Set, names(Set), gsub("-std\\(\\)", "SD", names(Set)))
 setnames(Set, names(Set), gsub("-", "", names(Set)))
 
 # Tidy dateset
-Tidy <- Set[, lapply(.SD, mean), by=c("subject","activity")]
+Tidy <- Set[, lapply(.SD, mean), by=c("activity","subject")]
 
 # Write to file
 write.table(Tidy, "tidydata.txt", row.names = FALSE)
