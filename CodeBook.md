@@ -1,9 +1,6 @@
 <<<<<<< HEAD
 Variables Explainations:
-=======
-A code book that describes the variables
 
->>>>>>> origin/master
 subject: Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
 activity: Activity name
