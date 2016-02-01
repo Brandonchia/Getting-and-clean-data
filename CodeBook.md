@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-Variables Explainations:
+<<<<<<< Variables Explainations:
 
 subject: Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
@@ -28,10 +27,10 @@ SD: Standard deviation
 X: X-axis measurement
 
 Y: Y-axis measurement
-<<<<<<< HEAD
+
 Z: Z-axis measurement
 
-Steps:
+<<<<<<< Steps:
 Step1: Read data with fread function
 Step2: Merge test and training subjects, labels, sets with rbind and cbind functions 
 Step3: Merge subject, activity labels, and sets with cbind function
