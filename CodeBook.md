@@ -31,6 +31,7 @@ Y: Y-axis measurement
 Z: Z-axis measurement
 
 <<<<<<< Steps:
+
 Step1: Read data with fread function
 
 Step2: Merge test and training subjects, labels, sets with rbind and cbind functions 
