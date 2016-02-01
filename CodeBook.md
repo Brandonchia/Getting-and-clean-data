@@ -1,18 +1,37 @@
+<<<<<<< HEAD
 Variables Explainations:
+=======
+A code book that describes the variables
+
+>>>>>>> origin/master
 subject: Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
 activity: Activity name
+
 Time: Time domain
+
 Freq: Frequency
+
 Body: Body acceleration signal
+
 Gravity: Gravity acceleration signal
+
 Acc: Measurement tool is accelerometer
+
 Gyro: Measurement tool is gyroscope
+
 Jerk: Jerk signal
+
 Mag: Signal's magnitude
+
 Mean: Average
+
 SD: Standard deviation
+
 X: X-axis measurement
+
 Y: Y-axis measurement
+<<<<<<< HEAD
 Z: Z-axis measurement
 
 Steps:
@@ -27,3 +46,7 @@ Step8: Create tidy data subset with average of each variable for each activity a
 Step9: Write .txt file with write.table function
 
 
+=======
+
+Z: Z-axis measurement
+>>>>>>> origin/master
